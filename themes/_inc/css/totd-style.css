@@ -1,0 +1,85 @@
+
+.hentry.type-totd{
+	margin-bottom:10px;
+	margin-top:5px;
+	font-family:Arial;
+	padding:0;
+	background:none repeat scroll 0 0 #57c6e6;
+	border:2px solid #79dffc;
+	overflow:hidden;
+}
+.hentry.type-totd a:link,.hentry.type-totd a:visited{
+	color:#000;
+}
+.hentry.type-totd .entry-header{
+	padding:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	font-variant: small-caps;
+}
+.hentry.type-totd .entry-header,.hentry.type-totd .totd-buttons a {
+	background-color:#009ecb;
+	
+}
+.hentry.type-totd .entry-header,.hentry.type-totd .totd-buttons a:link,.hentry.type-totd .totd-buttons a:visited {
+	color:#FFF;
+}
+.hentry.type-totd .entry-summary{
+	padding:3px 10px;
+}
+.hentry.type-totd .entry-summary p{
+	margin-bottom:0;
+}
+.hentry.type-totd .no-js.hide{
+	display:none;
+}
+
+.hentry.type-totd .totd-loading{
+	padding:0;
+	padding-left:2px;
+	padding-top:2px;
+	width:14px;
+	height:14px;
+
+	background:url(../images/ajax-loader.gif) bottom left no-repeat;
+	display:none;
+}
+.hentry.type-totd.loading .totd-loading{
+	display:inline-block;
+}
+.hentry.type-totd .totd-buttons {
+	float:right;
+	padding-right:10px;
+}
+.hentry.type-totd .totd-buttons a {
+	-moz-border-radius:3px 3px 0 0;
+	color:#888888;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:normal;
+	padding:3px 10px;
+	text-decoration:none;
+	vertical-align:bottom;
+}
+.hentry.type-totd .totd-buttons a img{
+	border:none;
+}
+.hentry.type-totd .totd-buttons a:hover {
+	background-color:#0092bb;
+}
+
+.hentry.type-totd .totd-buttons a.selected span {
+	background:url(../images/accept.png) left center no-repeat;
+	padding-left:20px;
+}
+.hentry.type-totd a.hide_tip,.hentry.type-totd a.hide_tip_forever{
+	float:right;
+}
+
+.hentry.type-totd .entry-title{
+	background:url(../images/information.png) left center no-repeat;
+	padding-left:20px;
+}
+.hentry.type-totd.totd-question .entry-title{
+	background-image:url(../images/help.png);
+}
